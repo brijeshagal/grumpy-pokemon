@@ -1,13 +1,14 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { getAllXPokemon, getPokemon, getXPokemon } from "@/tools/pokemon";
+import axios from "axios";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    getXPokemon();
+  }, []);
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      
+    <main className="">
+      <div>Here</div>
     </main>
-  )
+  );
 }

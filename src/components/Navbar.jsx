@@ -1,17 +1,18 @@
 import React from "react";
 import Link from "next/link";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#089c9c] w-full z-first">
+    <div className="w-full">
       <div className="flex flex-wrap place-items-center w-full">
-        <section className="relative mx-auto w-full">
+        <section className="mx-auto w-full">
           {/* <!-- navbar --> */}
           <nav className="flex justify-between text-white-2 w-full">
             <div className="px-5 xl:px-12 py-6 flex justify-between w-full items-center">
               <Link href={{ pathname: "/" }}>
-                <div className="text-3xl font-bold font-heading">
+                <div className="text-2xl font-bold font-heading">
                   Grumpy Pokemon
                 </div>
               </Link>
