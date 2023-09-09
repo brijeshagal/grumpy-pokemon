@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "@rainbow-me/rainbowkit": "^1.0.10",
+    "@spheron/storage": "^2.0.0",
     "autoprefixer": "10.4.15",
     "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "hardhat": "^2.17.2",
     "next": "13.4.19",
     "pokemontcgsdk": "^2.0.0",
     "postcss": "8.4.29",
